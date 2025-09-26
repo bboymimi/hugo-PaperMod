@@ -1,8 +1,8 @@
 # If your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would
 # contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
-baseURL: "https://adityatelange.github.io/hugo-PaperMod/"
-title: PaperMod
-copyright: "© [PaperMod Contributors](https://github.com/adityatelange/hugo-PaperMod/graphs/contributors)"
+baseURL: "https://gavinguo.cc"
+title: "Gavin Guo"
+copyright: "© [Gavin Guo](https://github.com/bboymimi)"
 theme: [hugo-PaperMod]
 
 enableInlineShortcodes: true
@@ -41,69 +41,69 @@ languages:
         - name: Tags
           url: tags/
           weight: 10
-        - name: WiKi
-          url: https://github.com/adityatelange/hugo-PaperMod/wiki/
+            # - name: WiKi
+            # url: https://github.com/adityatelange/hugo-PaperMod/wiki/
 
-  fr:
-    languageName: ":fr:"
-    weight: 2
-    title: PaperModL2
-    taxonomies:
-      category: FRcategories
-      tag: FRtags
-      series: FRseries
-    menu:
-      main:
-        - name: Archive
-          url: archives/
-          weight: 5
-        - name: FRTags
-          url: frtags
-          weight: 10
-        - name: FRCategories
-          url: frcategories
-          weight: 10
-        - name: FRSeries
-          url: frseries
-          weight: 10
-        - name: NullLink
-          url: "#"
+            # fr:
+            #   languageName: ":fr:"
+            #   weight: 2
+            #   title: PaperModL2
+            #   taxonomies:
+            #     category: FRcategories
+            #     tag: FRtags
+            #     series: FRseries
+            #   menu:
+            #     main:
+            #       - name: Archive
+            #         url: archives/
+            #         weight: 5
+            #       - name: FRTags
+            #         url: frtags
+            #         weight: 10
+            #       - name: FRCategories
+            #         url: frcategories
+            #         weight: 10
+            #       - name: FRSeries
+            #         url: frseries
+            #         weight: 10
+            #       - name: NullLink
+            #         url: "#"
 
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      languageAltTitle: French
-      profileMode:
-        enabled: true
-        title: PaperMod
-        imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
-        imageTitle: ProfileMode image
-        # imageWidth: 120
-        # imageHeight: 120
-        subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
-        buttons:
-          - name: Blog
-            url: posts
-          - name: Profile Mode
-            url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
+            #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
+            #   params:
+            #     languageAltTitle: French
+            #     profileMode:
+            #       enabled: true
+            #       title: PaperMod
+            #       imageUrl: "https://raw.githubusercontent.com/googlefonts/noto-emoji/master/svg/emoji_u1f9d1_1f3fb_200d_1f4bb.svg"
+            #       imageTitle: ProfileMode image
+            #       # imageWidth: 120
+            #       # imageHeight: 120
+            #       subtitle: "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+            #       buttons:
+            #         - name: Blog
+            #           url: posts
+            #         - name: Profile Mode
+            #           url: https://github.com/adityatelange/hugo-PaperMod/wiki/Features#profile-mode
 
-  fa:
-    languagedirection: rtl
-    weight: 3
-    title: PaperMod RTL
-    taxonomies:
-      category: FAcategories
-      tag: FAtags
-      series: FAseries
-    menu:
-      main:
-        - name: FATags
-          url: fatags
-          weight: 10
-    # custom params for each language should be under [langcode].parms - hugo v0.120.0
-    params:
-      homeInfoParams:
-        Title: "Hi there \U0001F44B"
-        Content: Welcome to RTL layout
+            # fa:
+            #   languagedirection: rtl
+            #   weight: 3
+            #   title: PaperMod RTL
+            #   taxonomies:
+            #     category: FAcategories
+            #     tag: FAtags
+            #     series: FAseries
+            #   menu:
+            #     main:
+            #       - name: FATags
+            #         url: fatags
+            #         weight: 10
+            #   # custom params for each language should be under [langcode].parms - hugo v0.120.0
+            #   params:
+            #     homeInfoParams:
+            #       Title: "Hi there \U0001F44B"
+            #       Content: Welcome to RTL layout
 
 outputs:
   home:
@@ -147,29 +147,29 @@ params:
         url: tags
 
   homeInfoParams:
-    Title: "PaperMod's Demo"
+    Title: "Engineering, Life & Thought"
     Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
-
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
-
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
-
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+      👋 Hi, I’m *Gavin Guo*. I’m a systems engineer with 15+ years in the Linux kernel and low-level subsystems—CPU architecture, memory management, virtualization, and performance optimization. Beyond work, I’m a lifelong strength athlete. I went from breakdancing in school to coaching swimming, then into competitive powerlifting and mentoring. I also hold the NSCA’s CSCS certification. I’m a deliberate learner: tools like SuperMemo shaped how I practice spaced repetition, and books continue to refine how I think—Moonwalking with Einstein on memory, The Culture Map on cross-cultural collaboration, and Viktor Frankl’s Man’s Search for Meaning. The line often quoted via Nietzsche still grounds me: "He who has a why to live can bear almost any how."
 
   socialIcons:
     - name: github
       title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: Discord
-      title: Join discord community
-      url: "https://discord.gg/ahpmTvhVmp"
-    - name: X
-      title: Share PaperMod on X/Twitter
-      url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
+      url: "https://github.com/bboymimi"
+    - name: linkedin
+      title: Connect on LinkedIn
+      url: "http://linkedin.com/in/gavinguo"
+    - name: mail
+      title: Send me an email
+      url: "mailto:mimi0213kimo@gmail.com"
+        # - name: Discord
+        # title: Join discord community
+        # url: "https://discord.gg/ahpmTvhVmp"
+        # - name: X
+        #   title: Share PaperMod on X/Twitter
+        #   url: "https://x.com/intent/tweet/?text=Checkout%20Hugo%20PaperMod%20%E2%9C%A8%0AA%20fast,%20clean,%20responsive%20Hugo%20theme.&url=https://github.com/adityatelange/hugo-PaperMod&hashtags=Hugo,PaperMod"
     - name: KoFi
       title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+      url: "https://ko-fi.com/gavinguo"
 
   editPost:
     URL: "https://github.com/adityatelange/hugo-PaperMod/tree/exampleSite/content"

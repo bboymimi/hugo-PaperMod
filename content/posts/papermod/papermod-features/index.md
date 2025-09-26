@@ -1,6 +1,7 @@
 ---
 title: "Features / Mods"
 summary: Learn About All Features in PaperMod
+draft: true
 date: 2021-01-20
 weight: 2
 aliases: ["/papermod-features"]
